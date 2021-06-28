@@ -34,14 +34,6 @@ object Consumer {
         bw.close()
       }
     }
-
-
-  /*  val record = consumer.poll(1000).asScala.toList.map(_.value())
-    println("consumer record data is")
-    println(record)
-    println("consumer Done")
-    record
-*/
   }
 }
 
